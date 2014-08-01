@@ -45,3 +45,10 @@ test('inline styles are ok', function (t) {
   t.equal(result, string);
   t.end();
 });
+test('absolute positioning is removed', function (t) {
+  var string = '<div style="height: 34px;position: absolute; font-size: larger;">some text</div>';
+  var cleanString = '<div style="height: 34px ; position:  ; font-size: larger">some text</div>';
+  var result = sanitize(string);
+  t.equal(result, cleanString);
+  t.end();
+});
