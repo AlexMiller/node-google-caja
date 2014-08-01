@@ -106,7 +106,7 @@ var cssSchema = (function () {
         'monospace', 'sans-serif', 'serif' ], [ 'loud', 'silent', 'soft',
         'x-loud', 'x-soft' ], [ 'no-repeat', 'repeat-x', 'repeat-y', 'round',
         'space' ], [ 'blink', 'line-through', 'overline', 'underline' ], [
-        'high', 'low', 'x-high', 'x-low' ], [ 'absolute', 'relative', 'static'
+        'high', 'low', 'x-high', 'x-low' ], [ 'relative', 'static'
       ], [ 'capitalize', 'lowercase', 'uppercase' ], [ 'child', 'female',
         'male' ], [ 'bidi-override', 'embed' ], [ 'bottom', 'top' ], [ 'clip',
         'ellipsis' ], [ 'continuous', 'digits' ], [ 'hide', 'show' ], [
